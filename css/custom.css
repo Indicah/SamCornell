@@ -1,0 +1,49 @@
+body {
+    background-color: #ddd;
+}
+
+.logo {
+    position: absolute;
+    top: 0%;
+    margin-bottom: 200px;
+    padding: 100px;
+}
+
+.top-slider {
+    position: relative;
+}
+
+a {
+    color: #ffffff;
+    
+}
+
+a:hover {
+    color: #aaa;
+    background-color: #333;
+}
+
+a:visited {
+    color: #fff;
+}
+
+a:focus {
+    color: #fff;
+}
+
+.about-blurb {
+    text-align: center;
+}
+
+h3 small {
+    color: #aaa;
+}
+
+.divider {
+    color: #aaa;
+    padding: 25px;
+}
+
+.no-margin {
+    margin: 0px;
+}
