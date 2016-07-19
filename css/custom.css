@@ -3,14 +3,16 @@ body {
 }
 
 .logo {
-    position: absolute;
-    top: 0%;
-    margin-bottom: 200px;
+    position: relative;
     padding: 100px;
+    z-index: 500;
+    border: none;
+    margin-bottom: -500px;
 }
 
-.top-slider {
+.orbit-container {
     position: relative;
+    margin-top: 0px;
 }
 
 a {
@@ -46,4 +48,8 @@ h3 small {
 
 .no-margin {
     margin: 0px;
+}
+
+html, body {
+  overflow-x: hidden;
 }
