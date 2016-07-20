@@ -100,3 +100,11 @@ h3 {
 .copyright {
     background-color: #444;
 }
+
+h5 small {
+    color: #444;
+}
+
+h5 {
+    padding-bottom: 20px;
+}
