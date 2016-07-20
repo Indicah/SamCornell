@@ -20,6 +20,28 @@
 
 </head>
 <body>
+    
+<script type="text/javascript">
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+</script>
+    
+<script type="text/javascript">
+function changeText(idElement) {
+    var element = document.getElementById('element' + idElement);
+    if (idElement === 1 || idElement === 2) {
+        if (element.innerHTML === 'Read More...') element.innerHTML = 'Close';
+        else {
+            element.innerHTML = 'Read More...';
+        }
+    }
+}    
+</script>
 
 <!-- <div class="callout large primary">
 <div class="row column text-center">
@@ -72,7 +94,11 @@
 <h2>Samuel Cornell</h2>
 <h3><small>about</small></h3>
 <p>Samuel was singing before he could speak and singing with legible words at two as well. When he was three, he began to ask if he could sing at church. His gracious Sunday School teacher allowed him to do so and the children and teachers alike just loved it. He gave his heart to the Lord at four years old and shortly thereafter began to write songs that the Lord would give him.</p>
-<a href="#" class="hollow button no-margin">Learn More</a>
+<div class="row medium-12 large-12 columns text-center" id="learnMore">
+    <p>Samuel Cornell was born on Aug. 20, 1999, the firstborn of his proud parents, Bob and Sharon Cornell. He has one sister, Sydney, who came along when Samuel was two. It was when he was two years old that his heart for the Lord became evident.  He would ask everyone we would meet if they knew Jesus. Further, he would inquire as to whether or not they had Jesus in their Heart. His genuine concern to see souls saved even at two years old was astounding, to say the least.</p>
+    <p>At five he was baptized with the Holy Spirit, with the evidence of speaking with other tongues and he continues to this day to allow the Holy Spirit to draw Him closer to the Precious Side of Christ.  Samuel truly loves the Lord and has the Heart of a Worshipper.  We believe God has, is and will continue to love, bless and use Samuel in his Service, for His Glory!  "But Samuel ministered unto the Lord, even as a Child" - I Samuel 2:18</p>
+</div>
+<a href="#second" class="hollow button no-margin" id="element1" onclick="javascript:changeText(1); toggle_visibility('learnMore');">Read More...</a>
 </div>
     
 <div class="row divider text-center small-12 large-12 columns">
