@@ -72,11 +72,6 @@ h3 {
     }
 }
 
-.arrow a:hover {
-    background-color: none;
-    color: none;
-}
-
 .arrow {
     position: relative;
     margin-left: auto;
@@ -97,3 +92,11 @@ h3 {
 }
 
 #learnMore { display: none; }
+
+.footer {
+    background-color: #333;
+}
+
+.copyright {
+    background-color: #444;
+}
