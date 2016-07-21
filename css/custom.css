@@ -15,8 +15,7 @@ body {
 }
 
 a {
-    color: #ffffff;
-    
+    color: #ffffff; 
 }
 
 a:hover {
@@ -67,6 +66,12 @@ h3 {
         position: relative;
         z-index: 100;
     }
+    .arrow {
+        visibility: hidden;
+    }
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
     .arrow {
         visibility: hidden;
     }
